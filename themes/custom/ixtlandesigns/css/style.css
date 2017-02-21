@@ -47,10 +47,10 @@ h2.block-title {
   border-width: 0px 0px 1px 0px;
 }
 
-/* line 59, ../sass/_default-variables.scss */
-.copyright {
+/* line 58, ../sass/_default-variables.scss */
+.region-footer {
   display: block;
-  align: center;
+  text-align: center;
 }
 
 /*!

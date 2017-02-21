@@ -166,15 +166,6 @@
         {% endblock %}
       </section>
 
-      <section class="below_content">
-      <aside class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-          {{ page.below_content_left }}
-      </aside>
-      <aside class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-          {{ page.below_content_right }}
-      </aside>
-        </section>
-
       {# Sidebar Second #}
       {% if page.sidebar_second %}
         {% block sidebar_second %}
@@ -183,6 +174,15 @@
           </aside>
         {% endblock %}
       {% endif %}
+
+      <section class="below_content">
+      <aside class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+          {{ page.below_content_left }}
+      </aside>
+      <aside class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+          {{ page.below_content_right }}
+      </aside>
+        </section>
     </div>
   </div>
 {% endblock %}
