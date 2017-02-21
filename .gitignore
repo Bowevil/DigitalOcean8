@@ -35,6 +35,7 @@ sites/simpletest
  */files
  */private
 sites/default/files/php/twig/
+themes/custom/ixtlandesigns/.sass-cache/*
 
 # Ignore SimpleTest multi-site environment.
 # simpletest
@@ -42,3 +43,13 @@ sites/default/files/php/twig/
 # Ignore core phpcs.xml and phpunit.xml.
 core/phpcs.xml
 core/phpunit.xml
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
