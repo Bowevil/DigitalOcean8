@@ -10,7 +10,8 @@
  * You can copy existing variables directly from the following file:
  * ./THEMENAME/bootstrap/assets/stylesheets/_variables.scss
  */
-@import url(http://fonts.googleapis.com/css?family=Average+Sans);
+@import url(https://fonts.googleapis.com/css?family=Average+Sans);
+@import url(https://fonts.googleapis.com/css?family=Monda);
 /* -------------------------------------------------------------
   Sass CSS3 Mixins! The Cross-Browser CSS3 Sass Library
   By: Matthieu Aussaguel, http://www.mynameismatthieu.com, @matthieu_tweets
@@ -24,7 +25,12 @@
   more info: http://www.findmebyip.com/litmus/#css3-properties
 
 ------------------------------------------------------------- */
-/* line 42, ../sass/_default-variables.scss */
+/* line 45, ../sass/_default-variables.scss */
+body {
+  font: 100% Average Sans, Monda, sans-serif;
+}
+
+/* line 56, ../sass/_default-variables.scss */
 .footer {
   background: transparent url(../images/footer.png) repeat-x 0 0;
   -webkit-background-size: 100% 100%;
@@ -35,22 +41,52 @@
   background-size: 100% 100%;
 }
 
-/* line 47, ../sass/_default-variables.scss */
+/* line 61, ../sass/_default-variables.scss */
 #block-ixtlandesigns-views-block-restful-contact-us-block, #block-ixtlandesigns-views-block-client-list-frontpage-block {
   padding: 0px 10px 0px 10px;
 }
 
-/* line 52, ../sass/_default-variables.scss */
+/* line 66, ../sass/_default-variables.scss */
 h2.block-title {
   border-color: #944d5a;
   border-style: none none solid none;
   border-width: 0px 0px 1px 0px;
 }
 
-/* line 58, ../sass/_default-variables.scss */
+/* line 72, ../sass/_default-variables.scss */
 .region-footer {
   display: block;
   text-align: center;
+}
+
+/* line 77, ../sass/_default-variables.scss */
+.rcorners5 {
+  border-radius: 0px 50px 50px 30px;
+  background: #BE6C35;
+  padding: 20px;
+  width: 100%;
+  height: auto;
+}
+
+/* line 85, ../sass/_default-variables.scss */
+.imporant-info {
+  font: Monda;
+  font-size: 18px;
+  color: #FFFFFF;
+  float: right;
+  margin: 1em 0.5em 0 0;
+}
+
+/* line 94, ../sass/_default-variables.scss */
+.important-title {
+  font-size: 18px;
+  text-align: center;
+  color: #FFFFFF;
+  border-radius: 50px 50px 0px 0px;
+  background: #BE6C35;
+  padding: 5px;
+  width: 150px;
+  height: 40px;
 }
 
 /*!
@@ -1771,7 +1807,7 @@ html {
 
 /* line 27, ../bootstrap/assets/stylesheets/bootstrap/_scaffolding.scss */
 body {
-  font-family: "Average Sans", sans-serif;
+  font-family: "Average Sans", "Monda", sans-serif;
   font-size: 14px;
   line-height: 1.42857;
   color: #333333;
@@ -7931,7 +7967,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Average Sans", sans-serif;
+  font-family: "Average Sans", "Monda", sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -8069,7 +8105,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "Average Sans", sans-serif;
+  font-family: "Average Sans", "Monda", sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -9542,7 +9578,7 @@ body.toolbar-fixed.toolbar-vertical.toolbar-tray-open.toolbar-fixed .toolbar-tra
   border-radius: 4px;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
   color: inherit;
-  font-family: "Average Sans", sans-serif;
+  font-family: "Average Sans", "Monda", sans-serif;
   font-size: 14px;
   list-style: none;
   min-width: 160px;

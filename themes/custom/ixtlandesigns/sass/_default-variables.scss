@@ -14,23 +14,37 @@
 $icon-font-path: '../bootstrap/assets/fonts/bootstrap/';
 
 //** Google Fonts
-@import url(http://fonts.googleapis.com/css?family=Average+Sans);
+@import url(https://fonts.googleapis.com/css?family=Average+Sans);
+@import url(https://fonts.googleapis.com/css?family=Monda);
 
 //** Import the mixins
 @import "../sasscss3mixins/css3-mixins.scss";
 
 //** Font, line-height, and color for body text, headings, and more.
-$font-family-sans-serif:  "Average Sans", sans-serif !default;
+$font-stack:    Average Sans, Monda, sans-serif;
+$font-family-sans-serif:  "Average Sans", "Monda", sans-serif !default;
 $font-weight: 400 !default;
+$font-family-base:        $font-family-sans-serif !default;
 
-//** Setting link attributes.
+$font-size-base:          14px;
+$font-size-xlarge:        ceil(($font-size-base * 1.5)) !default; // ~21px
+$font-size-large:         ceil(($font-size-base * 1.25)) !default; // ~18px
+$font-size-small:         ceil(($font-size-base * 0.85)) !default; // ~12p
+
+//** Setting link and major color attributes.
 $brand-primary: #000000;
 $link-color: $brand-primary;
 $link-hover-color: #FFFFFF;
 $link-hover-decoration: none;
+$con-background-color: #8D7F5C !default;
+$con-background-color-light: lighten($con-background-color, 13.5%);
 
 //** Background color for `<body>`.
 $body-bg: #DBCFAE;
+
+body {
+  font: 100% $font-stack;
+}
 
 //** define the base path before the mixin
 $imagedir:'../images/';
@@ -58,4 +72,32 @@ h2.block-title {
 .region-footer {
   display: block;
   text-align: center;
+}
+
+  .rcorners5 {
+    border-radius: 0px 50px 50px 30px;
+    background: #BE6C35;
+    padding: 20px;
+    width: 100%;
+    height: auto;
+}
+
+  .imporant-info {
+    font: Monda;
+    font-size: $font-size-large;
+    $font-weight: 500;
+    color: #FFFFFF;
+    float: right;
+    margin: 1em 0.5em 0 0;
+  }
+
+  .important-title {
+    font-size: $font-size-large;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 50px 50px 0px 0px;
+    background: #BE6C35;
+    padding: 5px;
+    width: 150px;
+    height: 40px;
 }
