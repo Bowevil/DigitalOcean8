@@ -89,6 +89,11 @@ h2.block-title {
   height: 40px;
 }
 
+/* line 105, ../sass/_default-variables.scss */
+.views-field-field-front-page-image {
+  width: 100%;
+}
+
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.

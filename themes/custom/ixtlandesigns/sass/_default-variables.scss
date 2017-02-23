@@ -55,12 +55,12 @@ $imagedir:'../images/';
 
 .footer {
     @include backgroundShorthandWithExternalVar('footer.png');
-   @include background-size();
+    @include background-size();
 }
 
 #block-ixtlandesigns-views-block-restful-contact-us-block, #block-ixtlandesigns-views-block-client-list-frontpage-block {
-  //background-color: darken($body-bg, 10%);
-  padding: 0px 10px 0px 10px;
+    //background-color: darken($body-bg, 10%);
+    padding: 0px 10px 0px 10px;
 }
 
 h2.block-title {
@@ -70,8 +70,8 @@ h2.block-title {
 }
 
 .region-footer {
-  display: block;
-  text-align: center;
+    display: block;
+    text-align: center;
 }
 
   .rcorners5 {
@@ -100,4 +100,8 @@ h2.block-title {
     padding: 5px;
     width: 150px;
     height: 40px;
+}
+
+.views-field-field-front-page-image {
+    width: 100%;
 }
