@@ -25,12 +25,12 @@
   more info: http://www.findmebyip.com/litmus/#css3-properties
 
 ------------------------------------------------------------- */
-/* line 45, ../sass/_default-variables.scss */
+/* line 51, ../sass/_default-variables.scss */
 body {
   font: 100% Average Sans, Monda, sans-serif;
 }
 
-/* line 56, ../sass/_default-variables.scss */
+/* line 62, ../sass/_default-variables.scss */
 .footer {
   background: transparent url(../images/footer.png) repeat-x 0 0;
   -webkit-background-size: 100% 100%;
@@ -41,55 +41,79 @@ body {
   background-size: 100% 100%;
 }
 
-/* line 61, ../sass/_default-variables.scss */
+/* line 67, ../sass/_default-variables.scss */
 #block-ixtlandesigns-views-block-restful-contact-us-block, #block-ixtlandesigns-views-block-client-list-frontpage-block {
   padding: 0px 10px 0px 10px;
 }
 
-/* line 66, ../sass/_default-variables.scss */
+/* Custom container */
+/* line 73, ../sass/_default-variables.scss */
+.container-full {
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* line 78, ../sass/_default-variables.scss */
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+/* line 85, ../sass/_default-variables.scss */
 h2.block-title {
   border-color: #944d5a;
   border-style: none none solid none;
   border-width: 0px 0px 1px 0px;
 }
 
-/* line 72, ../sass/_default-variables.scss */
+/* line 91, ../sass/_default-variables.scss */
+blockquote {
+  float: right;
+}
+
+/* line 95, ../sass/_default-variables.scss */
 .region-footer {
   display: block;
   text-align: center;
 }
 
-/* line 77, ../sass/_default-variables.scss */
+/* line 100, ../sass/_default-variables.scss */
 .rcorners5 {
-  border-radius: 0px 50px 50px 30px;
-  background: #BE6C35;
+  border-radius: 15px 50px 30px;
+  background: #C8B582;
+  float: right;
   padding: 20px;
-  width: 100%;
+  width: 80%;
   height: auto;
 }
 
-/* line 85, ../sass/_default-variables.scss */
+/* line 109, ../sass/_default-variables.scss */
+.rcorners5 p {
+  text-align: justify;
+  padding-left: inherit;
+  padding-right: inherit;
+}
+
+/* line 115, ../sass/_default-variables.scss */
 .imporant-info {
   font: Monda;
   font-size: 18px;
-  color: #FFFFFF;
-  float: right;
   margin: 1em 0.5em 0 0;
 }
 
-/* line 94, ../sass/_default-variables.scss */
+/* line 122, ../sass/_default-variables.scss */
 .important-title {
   font-size: 18px;
   text-align: center;
   color: #FFFFFF;
-  border-radius: 50px 50px 0px 0px;
-  background: #BE6C35;
   padding: 5px;
   width: 150px;
   height: 40px;
 }
 
-/* line 105, ../sass/_default-variables.scss */
+/* line 131, ../sass/_default-variables.scss */
 .views-field-field-front-page-image {
   width: 100%;
 }
@@ -2317,7 +2341,7 @@ blockquote {
   padding: 10px 20px;
   margin: 0 0 20px;
   font-size: 17.5px;
-  border-left: 5px solid #eeeeee;
+  border-left: 5px solid #000000;
 }
 /* line 250, ../bootstrap/assets/stylesheets/bootstrap/_type.scss */
 blockquote p:last-child,
@@ -2346,7 +2370,7 @@ blockquote .small:before {
 blockquote.pull-right {
   padding-right: 15px;
   padding-left: 0;
-  border-right: 5px solid #eeeeee;
+  border-right: 5px solid #000000;
   border-left: 0;
   text-align: right;
 }
@@ -6672,7 +6696,7 @@ a.badge:hover, a.badge:focus {
   padding-bottom: 30px;
   margin-bottom: 30px;
   color: inherit;
-  background-color: #eeeeee;
+  background-color: transparent;
 }
 /* line 13, ../bootstrap/assets/stylesheets/bootstrap/_jumbotron.scss */
 .jumbotron h1,
@@ -6687,7 +6711,7 @@ a.badge:hover, a.badge:focus {
 }
 /* line 24, ../bootstrap/assets/stylesheets/bootstrap/_jumbotron.scss */
 .jumbotron > hr {
-  border-top-color: #d5d5d5;
+  border-top-color: transparent;
 }
 /* line 28, ../bootstrap/assets/stylesheets/bootstrap/_jumbotron.scss */
 .container .jumbotron, .container-fluid .jumbotron {
